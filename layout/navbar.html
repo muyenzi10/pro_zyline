@@ -1,0 +1,37 @@
+<!-- navbar.html - Zyline Transportation Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-custom sticky-top py-3" style="background: #0a2e3d !important; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+  <div class="container">
+    <a class="navbar-brand text-white fw-bold fs-3" href="#">
+      <i class="bi bi-truck me-2" style="color:#f7b32b;"></i>Zyline<span style="color:#f7b32b;">Transport</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon bg-white rounded"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMain">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-2">
+        <li class="nav-item"><a class="nav-link" href="/"><i class="bi bi-house-door me-1"></i>Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="../zline/about.html"><i class="bi bi-info-circle me-1"></i>About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="/services.html"><i class="bi bi-truck-front me-1"></i>Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="/contact.html"><i class="bi bi-envelope me-1"></i>Contact</a></li>
+    </div>
+  </div>
+</nav>
+
+<!-- Required CSS for navbar to work properly (include in your main site) -->
+<style>
+    .navbar-custom .nav-link {
+    font-weight: 500;
+    color: #e2e8f0 !important;
+    transition: 0.2s;
+    margin: 0 2px;
+    text-decoration: none;
+  }
+  .navbar-custom .nav-link:hover, .navbar-custom .nav-link.active {
+    color: #f7b32b !important;
+  }
+  .navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+</style>
